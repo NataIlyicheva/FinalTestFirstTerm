@@ -12,3 +12,5 @@ for (int i = 0; i < array.Length; i++)
       count++;
    }
 }
+    if (count == 0) 
+    Console.WriteLine("Введенные элементы содержат > 3 символов");
